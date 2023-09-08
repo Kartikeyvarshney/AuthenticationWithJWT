@@ -1,0 +1,1 @@
+This is the version 2 of the authentication in this version the system give you the detail info about the what is the error in authenticaion for example password lenght , not an email or please enter an email.
