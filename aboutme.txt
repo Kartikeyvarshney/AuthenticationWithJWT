@@ -1,0 +1,7 @@
+This is the file which going to tell you about what is new in this version
+
+
+version 4 
+
+
+In this version we are going to secure our website authentication with JWT and cookies.
