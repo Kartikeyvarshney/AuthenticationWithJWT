@@ -1,7 +1,7 @@
 This is the file which going to tell you about what is new in this version
 
 
-version 4 
+final version
 
 
-In this version we are going to secure our website authentication with JWT and cookies.
+In this version we are going to add restriction in some routes like /smoothies because we don't want that use can use this page without loging in , and we are going to add user email on nav bar we they log in and we are going to render buttons on nav bar conditionally like we user is logedin we don't need to show him/her login and signup buttons .

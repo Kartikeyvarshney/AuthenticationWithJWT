@@ -1,3 +1,4 @@
+const res = require('express/lib/response')
 const User = require('../models/User')
 const jwt = require('jsonwebtoken')
 require('dotenv').config()
@@ -82,3 +83,8 @@ module.exports.login_post = async (req,res)=>{
      }
 }
 
+
+module.exports.logout_get = (req,res)=>{
+    res.cookie('jwt' , '' , {maxAge:1})
+    res.redirect('/')
+}
